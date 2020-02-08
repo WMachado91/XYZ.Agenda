@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace XYZ.Agendamentos.Entity.Models
 {
-    class Agendamento
+    public class Agendamento
     {
         public int Id { get; set; }
         public int IdUsuario { get; set; }
